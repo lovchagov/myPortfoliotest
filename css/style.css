@@ -1,0 +1,364 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('../fonts/gilroy-bold.eot');
+	/* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'),
+		/* IE < 9 */
+		url('../fonts/gilroy-bold.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/gilroy-bold.woff') format('woff'),
+		/* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-bold.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/gilroy-bold.svg#gilroy-bold') format('svg');
+	/* Chrome < 4, Legacy iOS */
+	font-weight: bold;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'Gilroy-Medium';
+	src: url('../fonts/gilroy-medium.eot');
+	/* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'),
+		/* IE < 9 */
+		url('../fonts/gilroy-medium.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/gilroy-medium.woff') format('woff'),
+		/* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-medium.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/gilroy-medium.svg#gilroy-medium') format('svg');
+	/* Chrome < 4, Legacy iOS */
+	font-weight: medium;
+	font-style: normal;
+}
+
+/*--------------------*/
+body {
+	scroll-behavior: smooth;
+}
+
+.content {
+	max-width: 1445px;
+	margin: 0 auto;
+	font-family: Gilroy-Medium;
+}
+
+
+
+
+.firstBlock {
+	padding-bottom: 104.06px;
+	width: 947px;
+	margin: 0 auto;
+}
+
+.container {}
+
+.firstBlock__row {}
+
+header {
+	height: 88px;
+	border-bottom: 1px solid;
+	margin: 0 auto;
+}
+
+ul {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 33px;
+}
+
+li {
+	font-family: 'Gilroy-Bold';
+	font-size: 18px;
+	line-height: 22px;
+}
+
+a {
+	color: #828282;
+}
+
+a:hover {
+	color: burlywoods;
+}
+
+a:visited {
+	color: #070707;
+}
+
+a:active {
+	color: #828282;
+}
+
+ul li {
+	display: inline-block;
+}
+
+.firstBlock__texts {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	color: black;
+	padding-top: 20px;
+	padding-bottom: 55.86px;
+}
+
+.name {
+	display: block;
+	font-family: 'Gilroy-Bold';
+	font-size: 47.3392px;
+	line-height: 60px;
+	width: 150px;
+}
+
+.job {
+	display: block;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.lang {
+	display: block;
+	font-family: 'Gilroy-Bold';
+	font-size: 16px;
+	color: #828282;
+	transform: rotate(-90deg);
+	padding-bottom: 0px;
+}
+
+.first_block__image {
+	max-width: 943.63px;
+}
+
+.first_block__image img {
+	max-width: 943.61px;
+	height: 387px;
+}
+
+
+.aboutMe {
+	scroll-behavior: smooth;
+	background-color: #F6F6F6;
+	height: 506;
+	margin: 0 auto;
+	margin-bottom: 80px;
+	width: 100%;
+	padding-top: 125px;
+}
+
+.container {}
+
+.aboutMe__row {}
+
+.aboutMe__title {}
+
+.title {
+	padding-bottom: 17.69px;
+	font-family: 'Gilroy-Bold';
+	font-size: 34px;
+	line-height: 42px;
+	text-align: center;
+}
+
+.aboutMe_text {
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #070707;
+	width: 485.34px;
+	margin: 0 auto;
+}
+
+.aboutMe_text p {
+	margin-bottom: 25px;
+}
+
+.aboutMe_text p:last-child {
+	margin-bottom: 0;
+}
+
+.skills__title {
+	margin-bottom: 36px;
+}
+
+.skills__text {
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 84px;
+}
+
+.programs {}
+
+.programs__row {
+	display: flex;
+	width: 937px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+
+.programs__column {
+	margin-right: 83px;
+	padding-bottom: 110px;
+}
+
+.programs__item {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.programs__column:last-child {
+	margin-right: 0px;
+}
+
+
+.programs__logo {
+	width: 99px;
+	height: 99px;
+	margin-bottom: 24px;
+}
+
+.programs__logo img {
+	width: 99px;
+	height: 99px;
+	margin-bottom: 23px;
+}
+
+.programs__title {
+	text-align: center;
+	margin-bottom: 57px;
+}
+
+.programs__stars {}
+
+.col1 {
+	order: 2;
+}
+
+.col2 {
+	order: 1;
+}
+
+.col3 {
+	order: 3;
+}
+
+.col4 {
+	order: 4;
+}
+
+
+.portfolio {
+	display: flex;
+	flex-direction: column;
+	background-color: #F6F6F6;
+	height: 2000;
+	margin: 0 auto;
+}
+
+.portfolio__card {
+	margin: 0 auto;
+}
+
+.portfolio__linkdiv {
+	margin: 0 auto;
+	font-family: 'Gilroy-Medium';
+	font-size: 18px;
+	line-height: 22px;
+	text-decoration-line: underline;
+}
